@@ -1,0 +1,120 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Title Section */
+#title {
+    background-color: #5eae53;
+    color: white;
+    text-align: left;
+}
+
+@media (max-width:990px) {
+    ul {
+        text-align: center;
+    }
+}
+
+.container-fluid {
+    padding: 3% 11% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 7%;
+}
+
+.nav-item {
+    /*text-align: center;*/
+    padding: 1.1rem;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.signup-btn {
+
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .5);
+}
+
+.signup-btn:hover {
+    color: #5eae53;
+}
+
+.cart-button {
+    border-radius: 100%;
+    border: none;
+    background-color: #eb8e78;
+
+}
+
+.cart-button:hover {
+    color: #5eae53;
+}
+
+/* Title Heading */
+
+.title-image img {
+    margin: 1rem 2rem;
+}
+
+.title-image {
+    text-align: center;
+}
+
+.pizza-image {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.chocolate-image {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.latte-image {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.title-upper {
+    font-family: 'Satisfy', cursive;
+    color: #eeb76b;
+    font-size: 2rem;
+}
+
+.title-heading {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.form-inline .form-control {
+    width: 55%;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.search-btn {
+    background-color: #eb8e78;
+    color: white;
+    width: 25%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.search-btn:hover {
+    color: #5eae53;
+    background-color: white;
+}
