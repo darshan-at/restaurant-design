@@ -30,7 +30,6 @@ img {
 }
 
 .nav-item {
-    /*text-align: center;*/
     padding: 1.1rem;
     color: white;
 }
@@ -51,6 +50,7 @@ img {
 }
 
 .cart-button {
+    padding: 7px;
     border-radius: 100%;
     border: none;
     background-color: #eb8e78;
@@ -117,4 +117,46 @@ img {
 .search-btn:hover {
     color: #5eae53;
     background-color: white;
+}
+
+/* Categories Section */
+#categories {
+    text-align: center;
+}
+
+.section-heading-top {
+    background-color: #5eae53;
+    border-radius: 10px;
+    color: white;
+}
+
+.section-heading {
+    margin: 1rem 0 0 0;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.category-item {
+    background-color: #5eae53;
+    color: white;
+    border-style: none;
+    margin: 3rem 1rem;
+}
+
+.category-item p {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.category-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.category-image {
+    background-color: white;
+}
+
+.card:hover {
+    background-color: #f49b3f;
 }
