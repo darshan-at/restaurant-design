@@ -27,7 +27,8 @@
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/9fe2efe7a3.js" crossorigin="anonymous"></script>
 
-
+	<!-- FaviCon -->
+	<link rel="icon" href="images/favicon.png">
 
 </head>
 
@@ -81,10 +82,11 @@
 				<div class="col-lg-6">
 					<h3 class="title-upper">Best food in town</h3>
 					<h1 class="title-heading">Delivery Food from the Best Restaurants.</h1>
-					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-lg-2 search-bar" placeholder="Food and Restaurants..."
-							type="search">
-						<button class="btn my-2 my-sm-0 search-btn" type="submit">Search</button>
+					<form class="">
+						<div class="input-group address-search-bar">
+							<input class="form-control address-input" placeholder="Your Address" type="search">
+							<button class="btn address-search-btn" type="submit">Search</button>
+						</div>
 					</form>
 				</div>
 				<div class="col-lg-6 title-image">
@@ -152,75 +154,267 @@
 	</section>
 	<!-- Restaurants Section -->
 	<section id="restaurant">
-		<h3>Restaurants</h3>
-		<h1>Restaurants</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices consequat vulputate. Proin dapibus
-			dictum purus vel fermentum. Praesent non.</p>
-		<div>
-			<div>
-				<img src="images/papdi-chat.jpg" alt="papdi-chat">
-				<h2>Papdi Chaat</h2>
-				<p>20-30 min</p>
-			</div>
-			<div>
-				<img src="images/papdi-chat.jpg" alt="papdi-chat">
-				<h2>Papdi Chaat</h2>
-				<p>20-30 min</p>
-			</div>
-			<div>
-				<img src="images/papdi-chat.jpg" alt="papdi-chat">
-				<h2>Papdi Chaat</h2>
-				<p>20-30 min</p>
-			</div>
-			<div>
-				<img src="images/papdi-chat.jpg" alt="papdi-chat">
-				<h2>Papdi Chaat</h2>
-				<p>20-30 min</p>
+		<div class="container-fluid">
+			<h3 class="btn section-heading-top">Restaurants</h3>
+			<h1 class="section-heading">Restaurants</h1>
+			<p class="section-description" style="width: 90%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Cras ultrices
+				consequat vulputate. Proin dapibus
+				dictum purus vel fermentum.
+				<a class="carousel-control-next btn next-btn" href="#restaurant-carousel" role="button"
+					data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+				<a class="carousel-control-prev btn prev-btn" href="#restaurant-carousel" role="button"
+					data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+
+				</a>
+			</p>
+
+			<div class="carousel slide" data-ride="false" id="restaurant-carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck" style="margin: auto 0;">
+								<div class="card bg-light restaurant-item">
+
+									<img src="images/mcd.jpg" alt="mac-d restaurant" class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> MC Donald's</h2>
+										<p class="card-text">20-30 min</p>
+										<small class="text-muted">Burger</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck">
+								<div class="card bg-light restaurant-item">
+									<img src="images/mcd.jpg" alt="mac-d restaurant" class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> MC Donald's</h2>
+										<p class="card-text">20-30 min</p>
+										<small class="text-muted">Burger</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck">
+								<div class="card bg-light restaurant-item">
+									<img src="images/mcd.jpg" alt="mac-d restaurant" class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> MC Donald's</h2>
+										<p class="card-text">20-30 min</p>
+										<small class="text-muted">Burger</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck">
+								<div class="card bg-light restaurant-item">
+									<img src="images/mcd.jpg" alt="mac-d restaurant" class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> MC Donald's</h2>
+										<p class="card-text">20-30 min</p>
+										<small class="text-muted">Burger</small>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck">
+								<div class="card bg-light restaurant-item">
+									<img src="images/lapinozz.jpg" alt="lapinoz" class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> La Pinoz</h2>
+										<p class="card-text">20-30 min</p>
+										<small class="text-muted">Pizza</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck">
+								<div class="card bg-light restaurant-item">
+									<img src="images/lapinozz.jpg" alt="mac-d restaurant"
+										class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> La Pinoz</h2>
+										<p class="card-text">20-30 min</p>
+										<small class="text-muted">Pizza</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck">
+								<div class="card bg-light restaurant-item">
+									<img src="images/lapinozz.jpg" alt="lapinoz" class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> La Pinoz</h2>
+										<p class="card-text">20-30 min</p>
+										<small class="text-muted">Pizza</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 card-deck">
+								<div class="card bg-light restaurant-item">
+									<img src="images/lapinozz.jpg" alt="lapinoz" class="img-fluid card-img-top">
+									<div class="card-img-overlay">
+										<span class="star-container">
+											<i class="far fa-star"></i>
+											<p>9.8</p>
+										</span>
+									</div>
+									<div class="card-body ">
+										<h2 class="card-title category-name"> La Pinoz</h2>
+										<p class="card-text">40-50 min</p>
+										<small class="text-muted">Pizza</small>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
+
 	<!-- Map Section -->
 	<section id="map">
-		<h3>Map</h3>
-		<img src="images/person-map.png" alt="person-map">
-		<h1>Food Map with more than 9000 Restaurants</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices consequat vulputate.</p>
-		<input type="text" placeholder="Your Address..." />
-		<button type="button">Search on Map</button>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="images/person-map.png" alt="person-map" class="img-fluid person-map-image">
+				</div>
+				<div class="col-lg-6">
+					<h3 class="btn section-heading-top">Map</h3>
+					<h1 class="section-heading">Food Map with more than 9000 Restaurants</h1>
+					<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+						ultrices consequat vulputate.</p>
+					<form class="">
+						<div class="input-group">
+							<input class="form-control map-search-bar" placeholder="Your Address" type="search">
+							<button class="btn map-search-btn" type="submit">Search</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- Submit Section -->
-	<section id="submit">
+	<!-- <section id="submit">
 		<h3>Submit</h3>
 		<img src="images/person-map.png" alt="person-map">
 		<h1>Submit your Restaurant to our List!</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices consequat vulputate.</p>
 		<button type="button">Submit</button>
-	</section>
+	</section> -->
 	<!-- Download Section -->
 	<section id="download">
-		<h1>Order Food in Our App Easily</h1>
-		<button type="button">App Store</button>
-		<button type="button">Play Store</button>
-		<img src="images/app-sample.png" alt="app-sample">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 ">
+					<h1 class="section-heading">Order Food in Our App Easily</h1>
+					<a href="#"><button type="button" class="btn btn-lg download-btn"><i
+								class="fab fa-apple download-icon"></i>App Store</button></a>
+					<a href="#"><button type="button" class="btn btn-lg download-btn"><i
+								class="fab fa-google-play download-icon"></i>Play Store</button></a>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/app-sample.png" alt="app-sample" class="img-fluid app-sample">
+				</div>
+			</div>
+		</div>
+
 	</section>
 	<!-- Footer Section -->
-	<section>
-		<h3>FooD</h3>
-		<a href="">f</a>
-		<a href="">f</a>
-		<a href="">f</a>
-		<a href="">MENU</a>
-		<a href="">About</a>
-		<a href="">Map</a>
-		<a href="">Restaurants</a>
-		<p>Submit</p>
-		<p>Subscribe</p>
-		<input type="text">
-		<hr>
-		<a href="">Terms and Conditions</a>
-		<a href="">Privacy</a>
-		<p>&copy;2021 FooD.Kutch</p>
-
+	<section id="footer">
+		<div class="footer-top-section">
+			<div class="row">
+				<div class="col-lg-4">
+					<h3>FooD</h3>
+					<a href="" class="contact-icon btn"><i class="fab fa-facebook-f " aria-hidden="true"></i></a>
+					<a href="" class="contact-icon btn"><i class="fab fa-twitter " aria-hidden="true"></i></a>
+					<a href="" class="contact-icon btn"><i class="fab fa-instagram " aria-hidden="true"></i></a>
+				</div>
+				<div class="col-lg-4">
+					<a href="" class="footer-item">MENU</a>
+					<div class="row footer-link">
+						<div class="col-lg-6">
+							<a href="" class="footer-item">About</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="" class="footer-item">Map</a>
+						</div>
+					</div>
+					<div class="row footer-link">
+						<div class="col-lg-6">
+							<a href="" class="footer-item">Restaurants</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="" class="footer-item">Submit</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 subscribe-section">
+					<p>Subscribe</p>
+					<form class="">
+						<div class="input-group ">
+							<input class="form-control subscribe-bar" placeholder="Your Email" type="search">
+							<i class="far fa-paper-plane btn subscribe-btn"></i>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+			<div class="copyright-section">
+				<hr class="bg-light">
+				<a href="" class="extra-link">Terms and Conditions</a>
+				<a href="" class="extra-link">Privacy</a>
+				<small>&copy;2021 FooD.Kutch</small>
+			</div>
+		</div>
 	</section>
 </body>
 

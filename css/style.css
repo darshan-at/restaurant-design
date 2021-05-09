@@ -3,8 +3,8 @@ body {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    /* width: 400px;
+    height: 400px; */
 }
 
 /* Title Section */
@@ -17,6 +17,15 @@ img {
 @media (max-width:990px) {
     ul {
         text-align: center;
+    }
+
+    #section {
+        text-align: center;
+    }
+
+    .subscribe-section {
+        margin-top: 2rem;
+
     }
 }
 
@@ -100,21 +109,30 @@ img {
     font-size: 4rem;
 }
 
-.form-inline .form-control {
-    width: 55%;
-    border-radius: 10px;
-    margin: 1rem 0;
+.address-search-bar {
+    width: 70%;
+
 }
 
-.search-btn {
+.address-input {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+}
+
+.address-search-btn {
     background-color: #eb8e78;
     color: white;
     width: 25%;
-    border-radius: 10px;
-    margin: 10px;
+    border-color: white;
+    border-left: none;
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 2rem;
 }
 
-.search-btn:hover {
+.address-search-btn:hover {
     color: #5eae53;
     background-color: white;
 }
@@ -131,7 +149,7 @@ img {
 }
 
 .section-heading {
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 1rem 0;
     font-weight: 900;
     font-size: 3rem;
 }
@@ -157,6 +175,171 @@ img {
     background-color: white;
 }
 
-.card:hover {
+.category-item:hover {
     background-color: #f49b3f;
+}
+
+/*Restaurant Section*/
+.section-description {
+    color: #a3a3a3;
+    font-size: 0.9rem;
+}
+
+.restaurant-item {
+    border-style: none;
+    margin: 1rem 0 0 0;
+}
+
+.prev-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    background-color: #eb8e78;
+
+    float: right;
+}
+
+.next-btn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    float: right;
+    background-color: #eb8e78;
+}
+
+.star-container {
+    background-color: #eb8e78;
+    border-radius: 10px;
+    padding: 8px 10px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.star-container p {
+    padding: 0 0 0 5px;
+    display: inline;
+}
+
+
+/* Map Section */
+
+.map-search-bar {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.map-search-btn {
+    background-color: #eb8e78;
+    color: white;
+    width: 25%;
+    border: none;
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 700;
+    /* margin: 10px; */
+}
+
+.person-map-image {
+    margin: 1rem 0;
+}
+
+/* Download Section */
+#download {
+    background-color: #5eae53;
+    color: white;
+}
+
+.download-btn {
+    background-color: #eb8e78;
+    color: white;
+    margin: 5% 3% 5% 0;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.download-icon {
+    margin-right: 10px;
+}
+
+.download-btn:hover {
+    color: #5eae53;
+    background-color: white;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #353432;
+    color: rgba(255, 255, 255, .7);
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    margin: 1rem 1rem 1rem 0;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #eb8e78;
+    color: white;
+    font-size: 18px;
+}
+
+.contact-icon:hover {
+    background-color: white;
+    color: #353432;
+}
+
+.footer-link {
+    margin-top: 2rem;
+}
+
+.footer-item {
+    color: rgba(255, 255, 255, .7);
+}
+
+.footer-item:hover {
+    text-decoration: none;
+    color: #979797;
+}
+
+.subscribe-btn {
+    width: 40px;
+    height: 38px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 0;
+    padding: 9px 10px 0 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #979797;
+}
+
+.subscribe-bar {
+    border-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.footer-top-section {
+    padding: 3% 11% 1%;
+}
+
+.copyright-section {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, .7);
+}
+
+.extra-link {
+    color: rgba(255, 255, 255, .7);
+    margin-right: 1rem;
+}
+
+.extra-link:hover {
+    text-decoration: none;
+    color: #979797;
 }
